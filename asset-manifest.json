@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/chaiAurChat/static/css/main.da516388.css",
+    "main.js": "/chaiAurChat/static/js/main.e811c011.js",
+    "static/js/453.ac0634c6.chunk.js": "/chaiAurChat/static/js/453.ac0634c6.chunk.js",
+    "static/media/t3.png": "/chaiAurChat/static/media/t3.a7c0e20df9f099449ed4.png",
+    "static/media/pp.png": "/chaiAurChat/static/media/pp.e4bf9e4f5b89fa23275c.png",
+    "static/media/download.png": "/chaiAurChat/static/media/download.4b1ef97f1bc2fbd02a90.png",
+    "static/media/defaultUser.png": "/chaiAurChat/static/media/defaultUser.aeb1e24dbba397d1b960.png",
+    "index.html": "/chaiAurChat/index.html",
+    "main.da516388.css.map": "/chaiAurChat/static/css/main.da516388.css.map",
+    "main.e811c011.js.map": "/chaiAurChat/static/js/main.e811c011.js.map",
+    "453.ac0634c6.chunk.js.map": "/chaiAurChat/static/js/453.ac0634c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da516388.css",
+    "static/js/main.e811c011.js"
+  ]
+}
