@@ -1,0 +1,127 @@
+/* .asideSearch-chat{
+    background-color: green;
+} */
+
+.asideResChat-holder{
+    height: 66vh;
+    overflow: hidden;
+}
+.asideResChat-holder:hover{
+    overflow: auto;
+}
+.asideResChat-holder::-webkit-scrollbar{
+    width: 10px;
+}
+.asideResChat-holder::-webkit-scrollbar-thumb{
+    background-color: rgb(25, 25, 25);
+    border-radius: 8px;
+}
+.asideResChat-holder::-webkit-scrollbar-thumb:hover {
+    background-color: #000000;
+}
+.asideResChat-holder::-webkit-scrollbar-track{
+    background-color: #2f2f2f;
+}
+
+/* aside search */
+
+.asideSearch{
+    padding: 10px 5px;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    position: relative;
+}
+.aside-search-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aside-search-holder{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.314);
+    width: 85%;
+}
+.fa-magnifying-glass{
+    font-size: 13px;
+}
+.aside-search-input{
+    background-color: transparent;
+    outline: none;
+    border:none;
+    font-size: 15px;
+    width: 90%;
+}
+.aside-search-input::placeholder{
+    color: rgb(147, 147, 147);
+}
+.search-add-holder{
+    position: absolute;
+    top: 110%;
+}
+/* for result chat */
+
+ .chat-holder-dp{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.chat-holderr{
+    display: flex;
+    gap: 10px;
+    padding: 10px 5px;
+    align-items: center;
+}
+
+.img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.add-icon{
+    padding:4px 8px;
+    background-color: rgba(0, 0, 0, 0.314);
+    width: max-content;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+
+.chat-holder-dp{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.chat-holder{
+    display: flex;
+    gap: 15px;
+    padding: 10px 5px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+
+.chat-holder-infoo{
+    max-width: 70%
+}
+
+.chat-holder:hover{
+    background-color: rgba(0, 0, 0, 0.222);
+}
+.name-chat{
+    font-size: 13px;
+}
+.name-chat-temp{
+    font-weight: 700;
+}
+.img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+

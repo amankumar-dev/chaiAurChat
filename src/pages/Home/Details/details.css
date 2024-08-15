@@ -1,0 +1,158 @@
+.main-detail-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* gap: 10px; */
+    justify-content: space-between;
+    /* background-color: black; */
+    border-right: 1px solid gray;
+}
+
+.info-card-holder{
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    gap: 10px;
+}
+.info-card-img-holder{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.info-card-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.info-card-name{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+.info-card-name-desc{
+    font-size: 12px;
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+/* Setting */
+.setting-holder{
+    display: flex;
+    flex-direction: column;
+}
+.setting-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 5px;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+.setting-1:hover{
+    background-color: rgba(0, 0, 0, 0.476);
+}
+.setting-desc{
+    font-size: 13px;
+    font-weight: 500;
+}
+.up-icon{
+    font-size: 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.434);
+    border-radius: 50%;
+}
+
+/* shared Photo */
+.photos-holder{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    overflow: hidden;
+    height: 160px;
+}
+
+.photos-holder:hover{
+    overflow: auto;
+}
+.photos-holder::-webkit-scrollbar{
+    width: 10px;
+}
+.photos-holder::-webkit-scrollbar-thumb{
+    background-color: rgb(25, 25, 25);
+    border-radius: 8px;
+}
+.photos-holder::-webkit-scrollbar-thumb:hover {
+    background-color: #000000;
+}
+.photos-holder::-webkit-scrollbar-track{
+    background-color: #2f2f2f;
+}
+
+
+.photos-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.photos-container:hover{
+    background-color: rgba(0, 0, 0, 0.338);
+}
+.photos-name-holder{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.photo-wrapper{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.photo-img{
+    /* transform: scale(3); */
+    width: 100%;
+    height: 100%;
+}
+.photo-desc{
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(233, 233, 233);
+}
+.photo-icon{
+    padding: 5px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.576);
+}
+
+/* Block user */
+.block-holder{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block-btn{
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(255, 0, 0, 0.824);
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+}
+.block-btn:hover{
+    background-color: rgba(255, 0, 0, 0.927);
+}
+.close-btn{
+    background-color: #00a7e5;
+    font-weight: 700;
+}
+.close-btn:hover{
+    background-color: #00a8e5b9;
+}

@@ -1,0 +1,92 @@
+Setting
+            <div className="setting-holder">
+                <div className="setting-1">
+                    <p className="setting-desc text-white">Chat Settings</p>
+                    <i className="text-white fa-solid fa-angle-up up-icon"></i>
+                </div>
+                <div className="setting-1">
+                <p className="setting-desc text-white">Common Groups</p>
+                <i className="fa-solid fa-angle-up up-icon text-white"></i>
+                </div>
+                <div className="setting-1">
+                <p className="setting-desc text-white">Privacy & Help</p>
+                <i className="fa-solid fa-angle-up up-icon text-white"></i>
+                </div>
+                <div className="setting-1">
+                <p className="setting-desc text-white">Shared Photos</p>
+                <i className="fa-solid fa-angle-up up-icon text-white"></i>
+                </div>
+            </div>
+
+            {/* shared Photos */}
+            <div className="photos-holder">
+                <div className="photos-container">
+                    <div className="photos-name-holder">
+                        <div className="photo-wrapper">
+                            <img className="photo-img" src={sharePhoto}/>
+                        </div>
+                        <p className="photo-desc">photo_2024_2.png</p>
+                    </div>
+                    <i className="fa-solid fa-download photo-icon text-white"></i>
+                </div>
+
+                <div className="photos-container">
+                    <div className="photos-name-holder">
+                        <div className="photo-wrapper">
+                            <img className="photo-img" src={sharePhoto}/>
+                        </div>
+                        <p className="photo-desc">photo_2024_2.png</p>
+                    </div>
+                    <i className="fa-solid fa-download photo-icon text-white"></i>
+                </div>
+
+                <div className="photos-container">
+                    <div className="photos-name-holder">
+                        <div className="photo-wrapper">
+                            <img className="photo-img" src={sharePhoto}/>
+                        </div>
+                        <p className="photo-desc">photo_2024_2.png</p>
+                    </div>
+                    <i className="fa-solid fa-download photo-icon text-white"></i>
+                </div>
+
+                <div className="photos-container">
+                    <div className="photos-name-holder">
+                        <div className="photo-wrapper">
+                            <img className="photo-img" src={sharePhoto}/>
+                        </div>
+                        <p className="photo-desc">photo_2024_2.png</p>
+                    </div>
+                    <i className="fa-solid fa-download photo-icon text-white"></i>
+                </div>
+
+                <div className="photos-container">
+                    <div className="photos-name-holder">
+                        <div className="photo-wrapper">
+                            <img className="photo-img" src={sharePhoto}/>
+                        </div>
+                        <p className="photo-desc">photo_2024_2.png</p>
+                    </div>
+                    <i className="fa-solid fa-download photo-icon text-white"></i>
+                </div>
+
+                <div className="photos-container">
+                    <div className="photos-name-holder">
+                        <div className="photo-wrapper">
+                            <img className="photo-img" src={sharePhoto}/>
+                        </div>
+                        <p className="photo-desc">photo_2024_2.png</p>
+                    </div>
+                    <i className="fa-solid fa-download photo-icon text-white"></i>
+                </div>
+
+                <div className="photos-container">
+                    <div className="photos-name-holder">
+                        <div className="photo-wrapper">
+                            <img className="photo-img" src={sharePhoto}/>
+                        </div>
+                        <p className="photo-desc">photo_2024_2.png</p>
+                    </div>
+                    <i className="fa-solid fa-download photo-icon text-white"></i>
+                </div>
+            </div>

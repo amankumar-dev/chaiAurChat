@@ -1,0 +1,71 @@
+.add-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 8px;
+    background-color: rgb(0, 0, 0);
+    backdrop-filter: blur(8px);
+    /* width: max-content; */
+    border-radius: 8px;
+    
+}
+.input-add-holder{
+    display: flex;
+    /* padding: 5px; */
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-add{
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+}
+.input-btn{
+    padding: 5px;
+    color: white;
+    background-color: #00a7e5;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+.profile-add-holder{
+    display: flex;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+.dp-name-add{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.dp-holder-add{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.dp-add{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+.name-add{
+    font-weight: 500;
+    color: white;
+    font-size: 13px;
+}
+.add-user-btn{
+    padding: 5px;
+    background-color: rgb(38, 86, 158);
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 13px;
+}
+
