@@ -143,7 +143,9 @@ export default function Home() {
                                 <div className="chat-holder-dpp">
                                     <img className="chat-dp img" src={user?.avatar || profilePicture} />
                                 </div>
-                                
+                                <div className="chat-holder-info">
+                                    <p className="name-chat-nav " style={{ color: colorStore.textCol }}>{user?.username}</p>
+                                </div>
                             </div>
                             <button className="main-nav-btn text-white" onClick={() => auth.signOut()} >Logout</button>
                         </div>
