@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chaiAurChat/static/css/main.f6c30e2d.css",
-    "main.js": "/chaiAurChat/static/js/main.5dcba7aa.js",
+    "main.js": "/chaiAurChat/static/js/main.18415b54.js",
     "static/js/453.ac0634c6.chunk.js": "/chaiAurChat/static/js/453.ac0634c6.chunk.js",
     "static/media/t3.png": "/chaiAurChat/static/media/t3.a7c0e20df9f099449ed4.png",
     "static/media/pp.png": "/chaiAurChat/static/media/pp.e4bf9e4f5b89fa23275c.png",
@@ -9,11 +9,11 @@
     "static/media/defaultUser.png": "/chaiAurChat/static/media/defaultUser.aeb1e24dbba397d1b960.png",
     "index.html": "/chaiAurChat/index.html",
     "main.f6c30e2d.css.map": "/chaiAurChat/static/css/main.f6c30e2d.css.map",
-    "main.5dcba7aa.js.map": "/chaiAurChat/static/js/main.5dcba7aa.js.map",
+    "main.18415b54.js.map": "/chaiAurChat/static/js/main.18415b54.js.map",
     "453.ac0634c6.chunk.js.map": "/chaiAurChat/static/js/453.ac0634c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6c30e2d.css",
-    "static/js/main.5dcba7aa.js"
+    "static/js/main.18415b54.js"
   ]
 }
