@@ -134,24 +134,22 @@ export default function Home() {
 
             {/* Main */}
             {/* //////////////////////////// */}
-            {chatId && showNav && showMain && (
+            {chatId && showNav && showMain && !showDetail && (
                 <div className="main-detail-both">
                     <div className="main">
                         <div className="main-nav" onClick={() => { setShowDetail(true) }} >
                             <div className="chat-holder-nav">
                                 <i class="fa-solid fa-arrow-left back-nav" style={{ color: colorStore.textCol }} onClick={(e) => { handleBack(e) }} ></i>
-                                <div className="chat-holder-dp">
+                                <div className="chat-holder-dpp">
                                     <img className="chat-dp img" src={user?.avatar || profilePicture} />
                                 </div>
-                                <div className="chat-holder-info">
-                                    <p className="name-chat-nav " style={{ color: colorStore.textCol }}>{user?.username}</p>
-                                    <p className="last-seen-nav " style={{ color: colorStore.textCol }}>Last Online 2 min ago</p>
-                                </div>
+                                
                             </div>
                             <button className="main-nav-btn text-white" onClick={() => auth.signOut()} >Logout</button>
                         </div>
 
                         {/* Main Chat Holder */}
+                        
                         <MainChat imgMsg={img.url} />
 
                         <div className="main-input-holder" >

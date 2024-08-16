@@ -61,11 +61,25 @@
 }
 .add-user-btn{
     padding: 5px;
-    background-color: rgb(38, 86, 158);
+    background-color: #00a7e5;
     color: white;
     border-radius: 4px;
     outline: none;
     border: none;
     font-size: 13px;
 }
-
+.icon{
+    color: white;
+    font-size: 20px;
+}
+@media (max-width:330px) {
+    .add-container{
+        width: 200px;
+        /* padding: 0px; */
+    }
+    .input-add{
+        width: 80%;
+        background-color: transparent;
+        color: white;
+    }
+}

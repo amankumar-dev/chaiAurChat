@@ -37,8 +37,11 @@ export default function Detail({showDetail,setShowDetail}){
                 <div className="info-card-img-holder">
                     <img src={user?.avatar||profilePicture} className="info-card-img"/>
                 </div>
-                <p className="info-card-name" style={{color:colorStore.textCol}}>{user?.username}</p>
-                <p className="text-white info-card-name-desc" style={{color:colorStore.textCol}}>Created by Aman Kumar</p>
+
+                <div className="info-detail">
+                <p className="info-card-name" style={{color:colorStore.textCol}}>{user?.username}</p> 
+                <p className="text-white info-card-name-desc" style={{color:colorStore.textCol}}>Created by Aman Kumar</p> 
+                </div>
             </div>
 
             

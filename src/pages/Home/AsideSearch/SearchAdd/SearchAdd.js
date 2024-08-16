@@ -4,11 +4,12 @@ import profilePicture from '../../../../Img/pp.png';
 import { arrayUnion, collection, doc, getDoc, getDocs, query, serverTimestamp, setDoc, updateDoc, where } from "firebase/firestore";
 import { db } from "../../../../lib/firebase";
 import { useUserStore } from "../../../../lib/userStore";
+import { toast } from "react-toastify";
 
 
 export default function SearchAdd({setShowAdd,showAdd}) {
     const [user,setUser]=useState(null);
-    const {currentUser}=useUserStore()
+    const {currentUser,setLog}=useUserStore()
     async function handleSearch(e) {
         e.preventDefault();
         const formData = new FormData(e.target);
@@ -30,6 +31,7 @@ export default function SearchAdd({setShowAdd,showAdd}) {
     }
 
     async function handleAdd() {
+        setLog(true)
         const chatRef=collection(db,"chats");
         const userChatsRef=collection (db,"userchats");
 
@@ -57,14 +59,15 @@ export default function SearchAdd({setShowAdd,showAdd}) {
                     updatedAt:Date.now(),
                 }),
             });
-
+            toast.success('User Added')
             
         } catch (error) {
+            toast.error('Something Went Wrong');
             console.log(error);
         }
 
         setShowAdd(!showAdd);
-        
+        setLog(false);
     }
 
 
@@ -72,8 +75,8 @@ export default function SearchAdd({setShowAdd,showAdd}) {
         <div className="add-container">
             <form className="input-add-holder" onSubmit={handleSearch} >
                 <input className="input-add" placeholder="Username" name="username" />
-                <button className="input-btn">
-                    Send
+                <button type="submit">
+                <i class="fa-solid fa-magnifying-glass icon"></i>
                 </button>
             </form>
             {user && <div className="profile-add-holder">
@@ -83,7 +86,7 @@ export default function SearchAdd({setShowAdd,showAdd}) {
                     </div>
                     <p className="name-add">{user.username}</p>
                 </div>
-                <button className="add-user-btn" onClick={handleAdd} >Add User</button>
+                <i class="fa-solid fa-user-plus icon" onClick={handleAdd}></i>
             </div>}
         </div>
     )
