@@ -4,9 +4,6 @@
 
 .asideResChat-holder{
     height: 66vh;
-    overflow: hidden;
-}
-.asideResChat-holder:hover{
     overflow: auto;
 }
 .asideResChat-holder::-webkit-scrollbar{
